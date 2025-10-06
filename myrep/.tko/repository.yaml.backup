@@ -1,0 +1,19 @@
+version: '0.2'
+sources:
+- database: local
+  link: ''
+  cache_path: ''
+  cache_timestamp: ''
+  filters: null
+- database: poo
+  link: https://github.com/qxcodepoo/arcade/blob/master/Readme.md
+  cache_path: ''
+  cache_timestamp: ''
+  filters:
+  - acesso
+  - simples
+expanded: []
+tasks: {}
+flags: {}
+lang: py
+selected: ''
