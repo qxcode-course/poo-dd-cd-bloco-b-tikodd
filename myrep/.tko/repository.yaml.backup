@@ -7,13 +7,20 @@ sources:
   filters: null
 - database: poo
   link: https://github.com/qxcodepoo/arcade/blob/master/Readme.md
-  cache_path: ''
-  cache_timestamp: ''
+  cache_path: C:\Users\Windows11\Desktop\UFC\2º SEMESTRE\PROGRAMAÇÃO\poo-dd-cd-bloco-b-tikodd\myrep\.tko\cache\poo.md
+  cache_timestamp: '2025-10-07 15:38:28'
   filters:
   - acesso
   - simples
-expanded: []
+expanded:
+- poo@campanha-principal
+- poo@bloco_b-modificadores-de-acesso
 tasks: {}
-flags: {}
+flags:
+  quests: 0
+  tracks: 0
+  tasks: 0
+  graph: 0
+  xray: 0
 lang: py
-selected: ''
+selected: poo@chinela
