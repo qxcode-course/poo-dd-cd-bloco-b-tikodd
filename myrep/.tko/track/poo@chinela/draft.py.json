@@ -2,8 +2,13 @@
     "patches": [
         {
             "label": "2025-10-07_16-10-01",
-            "content": "",
+            "content": "@@ -1,723 +0,0 @@\n-class Chinela:%0A    def __init__(self):    %0A        self.__tamanho = 0  %0A%0A    def getTamanho(self):%0A        return self.__tamanho%0A%0A    def setTamanho(self, valor: int):%0A        if 20 %3C= valor %3C= 50:%0A            self.__tamanho = valor%0A            print(%22Tamanho definido com sucesso!%22)%0A        else:%0A            print(%22Valor inv%C3%A1lido! O tamanho deve estar entre 20 e 50.%22)%0A%0A# loop principal%0Achinela = Chinela()%0A%0Awhile chinela.getTamanho() == 0:%0A    print(%22Digite seu tamanho de chinela:%22)%0A    try:%0A        tamanho = int(input()) %0A        chinela.setTamanho(tamanho)%0A    except ValueError:%0A        print(%22Por favor, digite apenas n%C3%BAmeros inteiros.%22)%0A%0Aprint(%22%F0%9F%8E%89 Parab%C3%A9ns, voc%C3%AA comprou uma chinela tamanho%22, chinela.getTamanho())\n",
             "lines": "0"
+        },
+        {
+            "label": "2025-10-12_22-26-42",
+            "content": "class Chinela:\n    def __init__(self):    \n        self.__tamanho = 0  \n\n    def getTamanho(self):\n        return self.__tamanho\n\n    def setTamanho(self, valor: int):\n        if 20 <= valor <= 50:\n            self.__tamanho = valor\n            print(\"Tamanho definido com sucesso!\")\n        else:\n            print(\"Valor inv\u00e1lido! O tamanho deve estar entre 20 e 50.\")\n\n# loop principal\nchinela = Chinela()\n\nwhile chinela.getTamanho() == 0:\n    print(\"Digite seu tamanho de chinela:\")\n    try:\n        tamanho = int(input()) \n        chinela.setTamanho(tamanho)\n    except ValueError:\n        print(\"Por favor, digite apenas n\u00fameros inteiros.\")\n\nprint(\"\ud83c\udf89 Parab\u00e9ns, voc\u00ea comprou uma chinela tamanho\", chinela.getTamanho())",
+            "lines": "26"
         }
     ]
 }

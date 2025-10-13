@@ -1,0 +1,22 @@
+2025-10-12 22:15:47, MOVE, v:1, k:poo@chinela, mode:PICK
+2025-10-12 22:15:48, EXEC, v:1, k:poo@chinela, mode:FREE
+2025-10-12 22:22:00, EXEC, v:1, k:poo@chinela, mode:LOCK, rate:100
+2025-10-12 22:22:01, EXEC, v:1, k:poo@chinela, mode:LOCK, rate:100
+2025-10-12 22:22:06, EXEC, v:1, k:poo@chinela, mode:LOCK, rate:100
+2025-10-12 22:22:09, EXEC, v:1, k:poo@chinela, mode:LOCK, rate:100
+2025-10-12 22:22:13, EXEC, v:1, k:poo@chinela, mode:LOCK, rate:100
+2025-10-12 22:22:20, EXEC, v:1, k:poo@chinela, mode:LOCK, rate:100
+2025-10-12 22:22:26, MOVE, v:1, k:poo@chinela, mode:BACK
+2025-10-12 22:22:32, MOVE, v:1, k:poo@chinela, mode:PICK
+2025-10-12 22:22:34, EXEC, v:1, k:poo@chinela, mode:LOCK, rate:100
+2025-10-12 22:22:35, EXEC, v:1, k:poo@chinela, mode:LOCK, rate:100
+2025-10-12 22:22:37, MOVE, v:1, k:poo@chinela, mode:BACK
+2025-10-12 22:22:48, MOVE, v:1, k:poo@chinela, mode:PICK
+2025-10-12 22:22:50, EXEC, v:1, k:poo@chinela, mode:LOCK, rate:100
+2025-10-12 22:22:57, EXEC, v:1, k:poo@chinela, mode:FREE
+2025-10-12 22:26:29, MOVE, v:1, k:poo@chinela, mode:PICK
+2025-10-12 22:26:41, MOVE, v:1, k:poo@chinela, mode:PICK
+2025-10-12 22:26:42, EXEC, v:1, k:poo@chinela, mode:FREE, size:26
+2025-10-12 22:31:58, SELF, v:1, k:poo@chinela, rate:80, iagen:gemini, guide:aula, alone:6, study:60
+2025-10-12 22:32:47, SELF, v:1, k:poo@chinela, rate:100, iagen:gemini, guide:aula, alone:7, study:60
+2025-10-12 22:33:03, MOVE, v:1, k:poo@camisa, mode:DOWN

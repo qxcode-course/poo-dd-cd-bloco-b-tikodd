@@ -8,14 +8,15 @@ sources:
 - database: poo
   link: https://github.com/qxcodepoo/arcade/blob/master/Readme.md
   cache_path: C:\Users\Windows11\Desktop\UFC\2º SEMESTRE\PROGRAMAÇÃO\poo-dd-cd-bloco-b-tikodd\myrep\.tko\cache\poo.md
-  cache_timestamp: '2025-10-07 15:38:28'
+  cache_timestamp: '2025-10-12 22:15:40'
   filters:
   - acesso
   - simples
 expanded:
 - poo@campanha-principal
 - poo@bloco_b-modificadores-de-acesso
-tasks: {}
+tasks:
+  poo@chinela: '{rate:100, iagen:gemini, guide:aula, alone:7, study:60}'
 flags:
   quests: 0
   tracks: 0
@@ -23,4 +24,4 @@ flags:
   graph: 0
   xray: 0
 lang: py
-selected: poo@chinela
+selected: poo@camisa
