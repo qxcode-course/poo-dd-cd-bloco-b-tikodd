@@ -1,0 +1,32 @@
+2025-10-22 10:09:03, MOVE, v:1, k:poo@camisa, mode:PICK
+2025-10-22 19:52:51, MOVE, v:1, k:poo@camisa, mode:PICK
+2025-10-22 19:52:53, EXEC, v:1, k:poo@camisa, mode:LOCK, rate:100, size:0
+2025-10-22 19:52:57, EXEC, v:1, k:poo@camisa, mode:LOCK, rate:100
+2025-10-22 19:53:00, EXEC, v:1, k:poo@camisa, mode:LOCK, rate:100
+2025-10-22 19:53:01, EXEC, v:1, k:poo@camisa, mode:LOCK, rate:100
+2025-10-22 19:53:02, EXEC, v:1, k:poo@camisa, mode:LOCK, rate:100
+2025-10-22 19:53:03, EXEC, v:1, k:poo@camisa, mode:LOCK, rate:100
+2025-10-22 19:53:04, EXEC, v:1, k:poo@camisa, mode:LOCK, rate:100
+2025-10-22 19:53:09, EXEC, v:1, k:poo@camisa, mode:LOCK, rate:100
+2025-10-22 19:53:10, EXEC, v:1, k:poo@camisa, mode:LOCK, rate:100
+2025-10-22 20:10:22, EXEC, v:1, k:poo@camisa, mode:LOCK, rate:100
+2025-10-22 20:10:23, EXEC, v:1, k:poo@camisa, mode:LOCK, rate:100
+2025-10-22 20:10:53, EXEC, v:1, k:poo@camisa, mode:LOCK, rate:100
+2025-10-22 20:10:57, EXEC, v:1, k:poo@camisa, mode:LOCK, rate:100
+2025-10-22 20:11:01, MOVE, v:1, k:poo@camisa, mode:BACK
+2025-10-22 20:46:59, MOVE, v:1, k:poo@camisa, mode:PICK
+2025-10-22 20:47:00, EXEC, v:1, k:poo@camisa, mode:LOCK, rate:100
+2025-10-22 20:47:01, EXEC, v:1, k:poo@camisa, mode:LOCK, rate:100
+2025-10-22 20:47:02, EXEC, v:1, k:poo@camisa, mode:LOCK, rate:100
+2025-10-22 20:47:02, EXEC, v:1, k:poo@camisa, mode:LOCK, rate:100
+2025-10-22 20:47:03, EXEC, v:1, k:poo@camisa, mode:LOCK, rate:100
+2025-10-22 20:47:05, EXEC, v:1, k:poo@camisa, mode:FREE
+2025-10-22 20:56:17, EXEC, v:1, k:poo@camisa, mode:LOCK, rate:100
+2025-10-22 20:56:19, EXEC, v:1, k:poo@camisa, mode:LOCK, rate:100
+2025-10-22 20:56:21, MOVE, v:1, k:poo@camisa, mode:BACK
+2025-10-22 20:58:09, MOVE, v:1, k:poo@camisa, mode:PICK
+2025-10-22 20:58:10, EXEC, v:1, k:poo@camisa, mode:LOCK, rate:100
+2025-10-22 20:58:17, EXEC, v:1, k:poo@camisa, mode:FREE
+2025-10-22 21:09:35, MOVE, v:1, k:poo@camisa, mode:BACK
+2025-10-22 21:11:57, SELF, v:1, k:poo@camisa, rate:100, human:breno_levy, guide:aula, alone:7, study:180
+2025-10-22 21:12:12, SELF, v:1, k:poo@camisa, rate:100, human:breno_levy, guide:aula, alone:8, study:180
