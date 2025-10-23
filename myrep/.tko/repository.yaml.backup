@@ -8,13 +8,14 @@ sources:
 - database: poo
   link: https://github.com/qxcodepoo/arcade/blob/master/Readme.md
   cache_path: C:\Users\Windows11\Desktop\UFC\2º SEMESTRE\PROGRAMAÇÃO ORIENTADA A OBJETO\poo-dd-cd-bloco-b-tikodd-1\myrep\.tko\cache\poo.md
-  cache_timestamp: '2025-10-22 20:58:06'
+  cache_timestamp: '2025-10-23 10:39:49'
   filters:
   - acesso
   - simples
 expanded:
 - poo@campanha-principal
 - poo@bloco_b-modificadores-de-acesso
+- poo@bloco_b-agregação-simples
 tasks:
   poo@chinela: '{rate:100, iagen:gemini, guide:aula, alone:7, study:60}'
   poo@camisa: '{rate:100, human:breno_levy, guide:aula, alone:8, study:180}'
@@ -25,4 +26,4 @@ flags:
   graph: 1
   xray: 0
 lang: py
-selected: poo@camisa
+selected: poo@roupa

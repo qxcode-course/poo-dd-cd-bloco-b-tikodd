@@ -1,0 +1,24 @@
+{
+    "patches": [
+        {
+            "label": "2025-10-22_22-35-29",
+            "content": "@@ -1,699 +0,0 @@\n-class Roupa:%0A    def __init__(self):%0A        self.__tamanho = %22%22%0A    %0A    def getTamanho(self) -%3E str:%0A        return self.__tamanho%0A%0A    def setTamanho(self, valor: str):%0A        tamanhosValidos = %5B%22PP%22, %22P%22, %22M%22, %22G%22, %22GG%22, %22XG%22%5D%0A%0A        if valor not in tamanhosValidos:%0A            print(%22fail: Valor invalido, tente PP, P, M, G, GG ou XG%22)%0A            return%0A%0A        self.__tamanho = valor%0A%0Aroupa = Roupa()%0A%0Awhile True:%0A    line = input()%0A    args: list%5Bstr%5D = line.split()%0A    print(f%22%7Bline%7D%22)%0A%0A    match args%5B0%5D:%0A        case %22show%22:%0A            print(f%22size: %7Broupa.getTamanho()%7D%22)%0A%0A        case %22size%22:%0A            roupa.setTamanho(args%5B1%5D.upper())%0A%0A        case %22end%22:%0A            break%0A%0A\n",
+            "lines": "0"
+        },
+        {
+            "label": "2025-10-23_11-01-38",
+            "content": "@@ -691,8 +691,9 @@\n   break%0A\n+%0A\n",
+            "lines": "33"
+        },
+        {
+            "label": "2025-10-23_11-07-48",
+            "content": "@@ -423,21 +423,8 @@\n ue:%0A\n-    try:%0A    \n     \n@@ -442,121 +442,8 @@\n t()%0A\n-    except EOFError:%0A        break%0A%0A    if not line.strip():%0A        # ignora linhas em branco%0A        continue%0A%0A\n     \n@@ -487,32 +487,37 @@\n int(\n+f%22%7B\n line\n+%7D%22\n )%0A%0A    \n-cmd =\n+match\n  args%5B0%5D\n .low\n@@ -516,30 +516,8 @@\n s%5B0%5D\n-.lower()%0A    match cmd\n :%0A  \n@@ -610,124 +610,8 @@\n e%22:%0A\n-            if len(args) %3C 2:%0A                print(%22fail: informe o tamanho. Ex: size M%22)%0A                continue%0A\n     \n@@ -695,64 +695,4 @@\n eak%0A\n-%0A        case _:%0A            print(%22fail: comando invalido%22)\n",
+            "lines": "32"
+        },
+        {
+            "label": "2025-10-23_11-24-28",
+            "content": "class Roupa:\n    def __init__(self):\n        self.__tamanho = \"\"\n    \n    def getTamanho(self) -> str:\n        return self.__tamanho\n\n    def setTamanho(self, valor: str):\n        tamanhosValidos = [\"PP\", \"P\", \"M\", \"G\", \"GG\", \"XG\"]\n\n        if valor not in tamanhosValidos:\n            print(\"fail: Valor invalido, tente PP, P, M, G, GG ou XG\")\n            return\n\n        self.__tamanho = valor\n\nroupa = Roupa()\n\nwhile True:\n    try:\n        line = input()\n    except EOFError:\n        break\n\n    if not line.strip():\n        # ignora linhas em branco\n        continue\n\n    args: list[str] = line.split()\n    print(line)\n\n    cmd = args[0].lower()\n    match cmd:\n        case \"show\":\n            print(f\"size: {roupa.getTamanho()}\")\n\n        case \"size\":\n            if len(args) < 2:\n                print(\"fail: informe o tamanho. Ex: size M\")\n                continue\n            roupa.setTamanho(args[1].upper())\n\n        case \"end\":\n            break\n\n        case _:\n            print(\"fail: comando invalido\")",
+            "lines": "47"
+        }
+    ]
+}
