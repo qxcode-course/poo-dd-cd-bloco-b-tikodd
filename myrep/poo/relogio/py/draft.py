@@ -5,7 +5,7 @@ class Watch:
         self.__seconds = 0
 
         self.setHour(hour)
-        self.setMinute(minute)
+        self.setMinute(minute)q
         self.setSeconds(seconds)
 
     def __str__(self) -> str:

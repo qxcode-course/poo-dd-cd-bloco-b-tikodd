@@ -1,0 +1,14 @@
+{
+    "patches": [
+        {
+            "label": "2025-10-25_19-30-23",
+            "content": "@@ -1753,16 +1753,17 @@\n rson = %22\n+ \n empty%22 i\n@@ -1794,12 +1794,12 @@\n lse \n-str(\n+f%22 %7B\n self\n@@ -1806,17 +1806,18 @@\n ._person\n-)\n+%7D%22\n %0A       \n@@ -1869,23 +1869,14 @@\n me%7D,\n- person:(\n %7Bperson%7D\n )%22\n@@ -1873,10 +1873,9 @@\n %7Bperson%7D\n-)\n %22\n",
+            "lines": "69"
+        },
+        {
+            "label": "2025-10-25_19-33-22",
+            "content": "from person import Person\n\n\nclass MotoCycle:\n    def __init__(self, power: int = 1) -> None:\n        self._power = power\n        self._time = 0\n        self._person = None\n    \n    def inserir(self, person: Person) -> bool:\n        if self._person is not None:\n            print(\"fail: busy motorcycle\")\n            return False\n            \n        if person.get_age() > 10:\n            print(\"fail: too old to drive\")\n            return False\n            \n        self._person = person\n        return True\n    \n    def remover(self) -> Person | None:\n        if self._person is None:\n            print(\"fail: empty motorcycle\")\n            return None\n            \n        person = self._person\n        self._person = None\n        return person\n    \n    def buyTime(self, time: int) -> bool:\n        if time < 0:\n            print(\"fail: negative time\")\n            return False\n            \n        self._time += time\n        return True\n    \n    def drive(self, time: int) -> bool:\n        if self._person is None:\n            print(\"fail: empty motorcycle\")\n            return False\n            \n        if time < 0:\n            print(\"fail: negative time\")\n            return False\n            \n        if self._time == 0:\n            print(\"fail: buy time first\")\n            return False\n            \n        if time > self._time:\n            print(f\"fail: time finished after {self._time} minutes\")\n            self._time = 0\n            return False\n            \n        self._time -= time\n        return True\n    \n    def honk(self) -> None:\n        if self._person is None:\n            print(\"fail: empty motorcycle\")\n            return\n            \n        print(\"P\" + \"e\" * self._power + \"m\")\n    \n    def __str__(self) -> str:\n        person = \"empty\" if self._person is None else str(self._person)\n        return f\"power:{self._power}, time:{self._time}, person:({person})\"",
+            "lines": "69"
+        }
+    ]
+}

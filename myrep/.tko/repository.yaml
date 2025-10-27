@@ -2,13 +2,17 @@ version: '0.2'
 sources:
 - database: local
   link: ''
+  type: local
+  branch: master
   cache_path: ''
   cache_timestamp: ''
   filters: null
 - database: poo
   link: https://github.com/qxcodepoo/arcade/blob/master/Readme.md
+  type: remote
+  branch: master
   cache_path: C:\Users\Windows11\Desktop\UFC\2º SEMESTRE\PROGRAMAÇÃO ORIENTADA A OBJETO\poo-dd-cd-bloco-b-tikodd-1\myrep\.tko\cache\poo.md
-  cache_timestamp: '2025-10-24 12:54:07'
+  cache_timestamp: '2025-10-27 14:05:43'
   filters:
   - acesso
   - simples
@@ -22,6 +26,7 @@ tasks:
   poo@roupa: '{rate:100, human:breno, guide:videos, alone:7, study:190}'
   poo@relogio: '{rate:100, human:amigo_breno, iagen:copilot, guide:videos_e_aulas,
     alone:6, study:210}'
+  poo@motoca: '{rate:100, human:breno, iagen:copilot, guide:video, alone:6, study:360}'
 flags:
   quests: 0
   tracks: 0
@@ -29,4 +34,4 @@ flags:
   graph: 1
   xray: 0
 lang: py
-selected: poo@motoca
+selected: poo@motouber

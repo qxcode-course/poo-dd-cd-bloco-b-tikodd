@@ -1,7 +1,8 @@
 class Roupa:
     def __init__(self):
         self.__tamanho = ""
-
+ pipx upgrade tko
+ 
     def getTamanho(self) -> str:
         return self.__tamanho
 
