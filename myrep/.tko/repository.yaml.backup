@@ -27,6 +27,8 @@ tasks:
   poo@relogio: '{rate:100, human:amigo_breno, iagen:copilot, guide:videos_e_aulas,
     alone:6, study:210}'
   poo@motoca: '{rate:100, human:breno, iagen:copilot, guide:video, alone:6, study:360}'
+  poo@grafite: '{rate:100, human:breno, iagen:gemini_copilot, guide:video, alone:6,
+    study:240}'
   poo@motouber: '{rate:100, human:breno, iagen:copilot, guide:video, alone:7, study:500}'
 flags:
   quests: 0
@@ -35,4 +37,4 @@ flags:
   graph: 1
   xray: 0
 lang: py
-selected: poo@motouber
+selected: poo@grafite
